@@ -1,0 +1,80 @@
+body {background-image: url('../background.png');}
+
+
+section a{text-decoration: none;}
+.icon-mainlogo{font-size: 300px;
+				color: #71ff67;
+				margin: 40% auto;
+				display: block;
+				width: 45%;}
+.icon-mainlogo:hover{color: red;}
+.indexPage .fs1 span{opacity:0;}
+.icon-store,.icon-glass,.icon-sheet,.icon-camara{
+						font-size: 150px;
+						color: wheat;
+						}
+.fs1 {width: 21%;
+	  margin: 10% auto;
+	  padding: 5%;}
+.indexPage .fs1{width: inherit;
+				padding: 0px;}
+.bottomLine .fs1{width: 33%;
+				float: left;
+				color: green;
+				text-align: center;
+				font-size: 75px;
+				padding: 0%;}
+.bottomLine .fs1:hover{color:red;}
+.bottomLine .fs1 span.icon-jclogo{font-size: 100px;
+									line-height: 78px;}
+.bottomLine .fs1 span.icon-jclogo:hover{color:green;}
+form {width: 80%;
+margin: 0% auto;
+}
+form .row{padding: 10px;
+		overflow: auto;
+		clear: both;
+	/*margin-bottom: 10px;*/}
+form *{-moz-box-sizing:border-box;
+	   -webkit-box-sizing:border-box;
+	   box-sizing:border-box;
+		padding: 10px;}
+/*form .row label{width: 17%;
+				display: block;
+				float: left;
+				padding: 10px;color:#fff;
+				font-family: 'gotham_nightsregular';
+				font-size: 20px;}*/
+form .row input/*[type="text"]*/, textarea{width: 100%;
+										text-align: left;
+										display: block;
+										float: left;
+										padding: 10px;}
+textarea{height: 160px;}	 	
+form .row input[type="submit"]{/*margin-left: 30%;*/
+							border-radius: 5px;
+							background-color: #7b0046;
+							border:solid 1px #114e6f;
+							padding: 10px 15px;
+							text-align: center;
+						    font-size: 30px;
+							box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+							font-family:'robotoblack';
+							color:#fff;
+							/*width: 20%;*/
+							}
+form .row input[type="text"]:hover{background-color: #70a9e3;}
+form .row input[type="text"]:active{background-color: #e2a481;
+									box-shadow: 3px 3px 5px rgba(0,0,0,0);}		
+table {margin:10% auto;color:#fff; background-color: #fff;}
+tbody {background-color: #000;}
+table a{text-decoration: none;color:#fff;}										   
+
+@media only screen and (max-width: 360px){
+.icon-mainlogo {font-size: 150px;}
+.icon-store,.icon-glass,.icon-sheet,.icon-camara{font-size: 100px;}
+.fs1{width: 29%;}
+.bottomLine .fs1{font-size: 50px;}
+.bottomLine .fs1 span.icon-jclogo{font-size: 75px;line-height: 50px;}
+
+}
